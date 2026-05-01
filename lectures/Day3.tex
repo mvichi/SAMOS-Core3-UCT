@@ -118,7 +118,7 @@
 % Document
 % -------------------------------------------------
 \begin{document}
-    \title[Core 3 ]{Day 3: Revision control systems and code maintenance}
+    \title[Core 3 ]{Day 3: Revision control systems and code writing with AI assistance}
     \author{Vichi and Mangatane}
     \institute[UCT]{Department of Oceanography\\marcello.vichi@uct.ac.za}
     \date{AOS-SAMOS}
@@ -128,7 +128,7 @@
 \tableofcontents{}
 \end{frame}
 
-\section{M: Revision Control Systems}
+\section{M: Revision Control Systems (0.5 hours)}
 \begin{frame}{Revision Control Systems}
 \begin{columns}[t]
 \column{7cm}
@@ -209,7 +209,7 @@ facilitating collaboration among different people.}{\tiny\par}
 
 \end{frame}
 
-\section{M: Hands-on tutorial - GIT and GitHub}
+\section{M: Hands-on tutorial - GIT and GitHub (1 hours)}
 %
 \begin{frame}{The GIT model: local and remote repositories}
 \begin{columns}
@@ -275,11 +275,10 @@ environment}{\tiny\par}
 
 \column{6cm}
 \begin{center}
-\includegraphics[scale=0.25]{figures/Github}
+\includegraphics[scale=0.35]{figures/Github}
 \par\end{center}
 \begin{itemize}
 \item \scriptsize{We will practice git in the classroom through Jupyter Lab. For those interested in knowing more, practice the tutorial on \href{https://swcarpentry.github.io/git-novice/}{https://swcarpentry.github.io/git-novice/}.}
-\item \scriptsize{First, open an account on GitHub and learn how to create a remote repository \href{https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github}{https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github}}
 \end{itemize}
 \end{columns}
 
@@ -287,13 +286,24 @@ environment}{\tiny\par}
 
 % =================================================
 \begin{frame}{Hands-on tutorial}
+\textbf{\texttt{git} and GitHub} with jupyter lab. Objectives:
     \begin{itemize}
-    \item \textbf{\texttt{git} and GitHub} with jupyter lab\\  
-    \item Objective: learn how to use a RCS to keep track of code changes.
+    \item  Learn how to use a RCS to keep track of code changes.
     \item Organize your directory structure and store the scripts that you have created
-    \item Your repository will be named SAMOS-<UCT-ID> and must be public
+    \begin{enumerate}
+        \item First, open an account on GitHub and learn how to create a remote repository \href{https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github}{https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github}
+        \item  Your repository will be named SAMOS-<UCT-ID> and must be public
+        \item Clone your new repository from within jupyter lab using the git integration on the left tab
+        \item Create a new folder called \texttt{classroom} and move there the script that we created during Day 1 to download the sea ice data. (use a meaningful name!)
+        \item commit and push the changes to the remote repository
+    \end{enumerate}
     \end{itemize}
      
 \end{frame}
 
+\section{M: In-class assignment - Using LLM for coding (1 hour)}
+%
+\begin{frame}{In-class exercise}
+    We will follow the instructions given in Exercise E2 on Amathuba.
+\end{frame}
 \end{document}
