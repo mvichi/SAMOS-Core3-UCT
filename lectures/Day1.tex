@@ -508,19 +508,28 @@ c.ServerApp.terminado_settings = {'shell_command':['bash.exe']}
 
 % =================================================
 \begin{frame}[fragile]{Tutorial: Bash shell in Jupyter Lab}
+\begin{columns}
+    
+\column{8cm}
 \begin{itemize}
-    \item First download from Amathuba the \texttt{shell-lesson-data.zip} file and decompress it in your Download folder.
-    \item From the same Anaconda Prompt window, we can also launch the application without using the Navigator: \texttt{> jupyter lab} (enter)
-    \item launch the terminal from Jupyter Lab and test the following commands:
+    \item \small{First download from \href{https://github.com/mvichi/SAMOS-Core3-UCT/tree/main/resources}{\textbf{the repository}} the \texttt{shell-lesson-data.zip} file and decompress it into your Download folder.}
+    \item \small{From the same Anaconda Prompt window, we can also launch the application without using Navigator: \texttt{> jupyter lab} (enter)}
+    \item \small{launch the terminal from Jupyter Lab and test the following commands:}
 \end{itemize}
 
-\begin{lstlisting}[basicstyle=\small\ttfamily]
+\begin{lstlisting}[basicstyle=\scriptsize\ttfamily]
 > pwd
 > cd Downloads/shell-lesson-data
 > ls
 > alias ls='ls --color'
 > ls
 \end{lstlisting}
+\column{5cm}
+\begin{figure}
+    \centering
+    \includegraphics[width=1.\linewidth]{lectures/figures/tree.png}
+\end{figure}
+\end{columns}
 
 \end{frame}
 
@@ -575,6 +584,36 @@ c.ServerApp.terminado_settings = {'shell_command':['bash.exe']}
 % =================================================
 \section{A: Programming and data\\(1.5 hour)}
 % =================================================
+% -------------------------------------------------
+\begin{frame}[fragile]{A trivial example}
+
+\begin{columns}
+\column{6cm}
+\begin{lstlisting}[basicstyle={\footnotesize\ttfamily},frame=shadowbox]
+Meta-language Algorithm
+
+Step 1: Start
+Step 2: Input the values of 
+        A and B
+Step 3: Check if a>b,  
+        - if yes then print 
+          "A is maximum"
+        - if no then print 
+          "B is maximum"
+Step 4: Stop
+\end{lstlisting}
+
+\column{6cm}
+\includegraphics[width=6cm]{figures/flowchart_stupid}
+\end{columns}
+\end{frame}
+
+% -------------------------------------------------
+\begin{frame}{Another one with structured programming: Cooking a toast...}
+\includegraphics{figures/toast_cooking}
+\end{frame}
+
+
 \begin{frame}{Structures of a program}
 
 \begin{columns}
@@ -649,34 +688,6 @@ treatise about algebraic methods
 
 \end{frame}
 
-% -------------------------------------------------
-\begin{frame}[fragile]{A trivial example}
-
-\begin{columns}
-\column{6cm}
-\begin{lstlisting}[basicstyle={\footnotesize\ttfamily},frame=shadowbox]
-Meta-language Algorithm
-
-Step 1: Start
-Step 2: Input the values of 
-        A and B
-Step 3: Check if a>b,  
-        - if yes then print 
-          "A is maximum"
-        - if no then print 
-          "B is maximum"
-Step 4: Stop
-\end{lstlisting}
-
-\column{6cm}
-\includegraphics[width=6cm]{figures/flowchart_stupid}
-\end{columns}
-\end{frame}
-
-% -------------------------------------------------
-\begin{frame}{Another one with structured programming: Cooking a toast...}
-\includegraphics{figures/toast_cooking}
-\end{frame}
 
 % -------------------------------------------------
 \begin{frame}{Basic digital data types}
