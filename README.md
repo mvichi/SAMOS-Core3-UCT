@@ -1,30 +1,48 @@
 # SEA-SCDM-course
-Material for the Scientific Computing Data Management course at UCT
+Material for the python in ocean sciences module of the AOS-SAMOS course: Core 3 Quantitative skills for Ocean Sciences. 
+We ackowledge funding from the project 101179091 — SAMOS — ERASMUS-EDU-2024-CBHE funded by the European Union.
 
-This module is composed of 4 parts and one final assignment. Part 1-3 will be run in parallel because they involve computer work and on-line training on the Datacamp platform. Tutorials and exercises must be completed daily to ensure the proper pace of learning.
+## Day 1
+Morning
+* Introduction to SCDM (30 minutes)
+* Hands-on tutorial: jupyterlab (1 hour)
+* The computer interface- operating systems and * filesystems (1.5 hours)
+Afternoon
+* Hands-on Tutorial: Programming and data (1.5 * hours)&nbsp;
+* DataCamp assignment: importing data in python (2 hours)
 
-1. Theoretical introduction to Data Science
-  * Digital data and scientific computing
-  * Programming languages
-  * Data management principles
-  * Revision control systems
-2. Practical introduction
-  * Set-up a scientific computing environment
-  * Terminal usage and unix shell commands
-  * File systems, data transfer, cloud storage
-  * Servers and integrated development environments (including jupyterlab, jupyterhub)
-3. Self-paced introduction to programming using DataCamp and tutorials (in parallel with 1 and 2)
-  * Python Basics; Functions and Packages; Working with Arrays (NumPy)
-  * Matplotlib; Dictionaries & Pandas; Logic, Control Flow and Filtering; Loops
-  * Introduction to flat files; Importing data from other file types
-  * Plotting time-series; Quantitative comparisons and statistical visualizations; Sharing visualizations with others
-  * Basics of R and Matlab
-4. Advanced applications (with python)
-  * Projections and mapping
-  * Intro to Multidimensional gridded data and xarray
-  * Calculations and statistics on gridded data
-5. Final assignment
+## Day 2
+Morning
+* Data Management
+* Hands-on Tutorial: Multidimensional Data and xarray
+Afternoon
+* Hands-on Tutorial: Multidimensional data and xarray;
+* DataCamp assignment: matplotlib
 
-## Acknowledgment
+## Day 3
+Morning
+* Introduction to revision control systems
+* Hands-on Tutorial: git and GitHub
+* Assignment E2: Loading and visualizing data from flat files (using AI)
+Afternoon
+* Hands-on Tutorial: Mapping with Cartopy
+* Assignment E3: Using cartopy for mapping
+
+## Day 4
+Morning
+* Hands-on Tutorial: Extracting and visualizing data with xarray
+Afternoon
+* Consultations and catch-ups
+
+## Day 5
+Morning
+* Hands-on Tutorial: Advanced computation with xarray
+* Explanation of the group assignment (E5)
+Afternoon
+* Assignment E4: DMP
+
+
+### Special Acknowledgment
 Some components of this course have been adapted from: 
 https://earth-env-data-science.github.io/intro.html
+and from other publicly available material on the web as indicated in the material. This material is made available under a CC-BY-SA-4.0 licence.
