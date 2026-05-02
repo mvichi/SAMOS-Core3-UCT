@@ -1,5 +1,7 @@
-# SEA-SCDM-course
-Material for the python in ocean sciences module of the AOS-SAMOS course: Core 3 Quantitative skills for Ocean Sciences. 
+# AOS-SAMOS Core 3 module - python in ocean sciences
+Material for the python in ocean sciences module of the AOS-SAMOS course: Core 3 Quantitative skills for Ocean Sciences.
+This material was prepared by M. Vichi and M. Mangatane from the Deaprtment of Oceanography, University of Cape Town
+
 We ackowledge funding from the project 101179091 — SAMOS — ERASMUS-EDU-2024-CBHE funded by the European Union.
 
 ## Day 1
