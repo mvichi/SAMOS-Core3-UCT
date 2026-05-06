@@ -52,7 +52,7 @@ Afternoon
 Download the `samos-core3.yml` file in your Download folder. This file contains the packages to install in your new conda environment. 
 Open the Anaconda prompt, change directory to the Download folder where the file is located; create the new environment and activate it
 
-`conda env create -f samos-core3.yml`
+`conda env create --solver libmamba -f samos-core3.yml`
 
 `conda activate samos-core3`
 
