@@ -2,7 +2,7 @@
 Material for the python in ocean sciences module of the AOS-SAMOS course: Core 3 Quantitative skills for Ocean Sciences.
 This material was prepared by M. Vichi and M. Mangatane from the Deaprtment of Oceanography, University of Cape Town
 
-We ackowledge funding from the project 101179091 — SAMOS — ERASMUS-EDU-2024-CBHE funded by the European Union.
+**We ackowledge funding from the project 101179091 — SAMOS — ERASMUS-EDU-2024-CBHE funded by the European Union.**
 
 ## Day 1
 Morning
@@ -11,7 +11,7 @@ Morning
 * The computer interface- operating systems and * filesystems (1.5 hours)
 
 Afternoon
-* Hands-on Tutorial: Programming and data (1.5 * hours)&nbsp;
+* Hands-on Tutorial: Programming and data (1.5 * hours)
 * DataCamp assignment: importing data in python (2 hours)
 
 ## Day 2
