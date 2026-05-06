@@ -44,7 +44,7 @@ dependencies:
 
   # Revision control
   - git
-  - jupyterlab_git
+  - jupyterlab-git
 
   # Pip-only packages
   - pip:
